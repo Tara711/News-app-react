@@ -1,0 +1,27 @@
+.news {
+  border: 1px solid black;
+  height: 500px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  text-align: center;
+}
+.news img {
+  width: 100%;
+}
+.news h3 {
+  padding: 5px;
+}
+.news button {
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 12px;
+  outline: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.news p {
+  padding-block: 10px;
+}
